@@ -1,7 +1,7 @@
 package com.curry.app.service;
 
-import com.curry.app.dto.GreetingResponse;
-import com.curry.app.dto.HealthResponse;
+import com.curry.app.dto.ApplicationPayloads.GreetingResponse;
+import com.curry.app.dto.ApplicationPayloads.HealthResponse;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Service;
 

@@ -1,8 +1,8 @@
 package com.curry.app.controller;
 
-import com.curry.app.dto.ApiResponse;
-import com.curry.app.dto.GreetingResponse;
-import com.curry.app.dto.HealthResponse;
+import com.curry.app.dto.ApplicationPayloads.ApiResponse;
+import com.curry.app.dto.ApplicationPayloads.GreetingResponse;
+import com.curry.app.dto.ApplicationPayloads.HealthResponse;
 import com.curry.app.service.ApplicationInfoService;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;

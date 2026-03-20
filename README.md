@@ -4,7 +4,7 @@
 
 - `controller`：负责对外提供 HTTP 接口
 - `service`：负责封装业务逻辑
-- `dto`：负责接口返回对象定义
+- `dto`：集中定义接口响应模型
 
 ## 接口列表
 
@@ -31,9 +31,7 @@ src/main/java/com/curry/app
 ├── controller
 │   └── ApplicationInfoController.java
 ├── dto
-│   ├── ApiResponse.java
-│   ├── GreetingResponse.java
-│   └── HealthResponse.java
+│   └── ApplicationPayloads.java
 └── service
     └── ApplicationInfoService.java
 ```
